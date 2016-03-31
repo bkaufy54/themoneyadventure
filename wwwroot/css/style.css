@@ -1,0 +1,172 @@
+/***********************INDEX*/
+/* General */
+a {
+  text-decoration: none;
+  color: #DFEBD1;
+}
+
+p, h1, h2, h3, a {
+    color: #DFEBD1;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+html {
+  background-color: #E0DCDC;
+}
+
+/* FORM */
+
+#emailForm #email {
+  text-align: center;
+  margin: 0;
+  width: 90%;
+}
+
+#formContainer h1 {
+    padding: 50px 30px 0 30px;
+    text-align: center;
+}
+
+#formContainer p {
+    width: 80%;
+    margin: 0 10% 0 10%;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+#emailForm #submit {
+    float: left;
+    padding: 10px;
+    width: 30%;
+    margin: 20px 5% 20px 15%;
+    font-size:1.2em;
+}
+
+#emailForm #close {
+    float: right;
+    padding: 10px;
+    width: 30%;
+    margin: 20px 15% 20px 5%;
+    font-size: 1.2em;
+}
+
+#formContainer {
+  width: 50%;
+  height: 70%;
+  margin: 5% 25% 0 25%;
+  padding: 0;
+  background-color: white;
+}
+
+#emailForm {
+  background: rgba(0,0,0,.7);
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  position: fixed;
+  text-align: center;
+}
+
+
+/* Header */
+
+
+
+
+
+/* Mobile */
+
+
+/* Stoies */
+
+
+/* Footer */
+
+.social-icon {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  margin: 0 0 -10px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0 2px 0;
+  clear: both;
+  color: white;
+  background-color: black;
+}
+
+
+/***********************CATEGORIES*/
+
+
+
+/***********************ABOUT*/
+
+/* About Image */
+
+
+/* About Writing */
+
+
+#aboutwriting {
+  text-align: center;
+}
+
+/***********************CONTACT*/
+
+/* Image */
+
+
+/* Contact Paragraph */
+
+
+#contactwriting h1, p {
+  text-align: center;
+}
+
+/* Contact Info */
+
+#paulcontact, #brandoncontact {
+  padding: 0;
+}
+
+#paulcontact li, #brandoncontact li{
+  padding: 10px 0 10px 10px;
+}
+
+#paulcontact li a, #brandoncontact li a {
+  color: darkolivegreen;
+  margin-left: 20px;
+}
+
+/* Contact Icons */
+
+.phone {
+  background-image: url(../img/phone.png);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-size: 30px;
+}
+
+.mail {
+  background-image: url(../img/mail.png);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-size: 30px;
+}
+
+.twitter {
+  background-image: url(../img/twitter.png);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-size: 30px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Money Adventure | Chasing The Dollar Bill</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="~/css/normalize.css" />
+        <link rel="stylesheet" href="~/css/style.css" />
+        <link rel="stylesheet" href="~/css/responsive.css" />
+        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script type="text/javascript" src="~/js/interact.js"></script>
+    </head>
+    <body>
+       </header> 
+            <a href="/">
+                <h1>The Money Adventure</h1>
+                <h3>Stories and Tips for Success</h3>
+            </a>
+            <nav>
+               <ul>
+                   <li><a asp-controller="Index" >Home</a></li>
+                   <li><a href="" class="">The Long Haul</a></li>
+                   <li><a href="" class="">The Short Term</a></li>
+                   <li><a href="" class="">Self Development</a></li>
+                   <li><a href="" class="">About</a></li>
+                   <li><a href="" class="">Contact</a></li>
+               </ul> 
+            </nav>
+        </header>
+        @RenderSection("emailForm")
+        @RenderSection("newPosts")
+        @RenderSection("mediumPosts")
+        <footer>
+            <a href="http://www.twitter.com/paulkfmn"><img src="~/images/twitter-png" alt="Twitter Logo" /></a>
+            <a href="http://www.facebook.com/paulkfmn"><img src="~/images/facebook-wrap.png" alt="Facebook Logo" /></a>
+            <p>&copy; 2016 The Money Adventure</p>       
+        </footer>
+    </body>
+</html>
